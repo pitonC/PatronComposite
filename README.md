@@ -82,6 +82,14 @@ Vista general de las clases y sus relaciones:
 - `LeafProduct` es una hoja: representa un producto individual con precio.
 - `CompositeComponent` es un contenedor: guarda varios componentes y suma sus precios de forma recursiva.
 
+## Ejecucion
+<img width="1183" height="999" alt="image" src="https://github.com/user-attachments/assets/106c1d05-0e13-4e9c-95d6-64ff476c88bc" />
+<img width="738" height="1277" alt="image" src="https://github.com/user-attachments/assets/773cbc67-783c-4162-9282-a1424925026b" />
+<img width="871" height="1252" alt="image" src="https://github.com/user-attachments/assets/124f36e2-b173-4c4d-8601-e3c31f22da86" />
+
+
+
+
 ## Modulos clave y su logica
 
 ### `catalog.py`
