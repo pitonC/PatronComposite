@@ -1,5 +1,7 @@
 # Ensamblador de PC con Patron Composite
 
+![Portada del proyecto](docs/portada-institucional.png)
+
 Proyecto en Python que aplica el patron **Composite** para armar una configuracion de PC por gama (`alta`, `media`, `baja`) y calcular el costo total.
 
 ## Objetivo del proyecto
@@ -117,18 +119,6 @@ Importancia:
 6. Todas las categorias se agregan al arbol raiz de configuracion.
 7. `format_summary()` imprime arbol + total (`total_price()`).
 
-## Como extender el proyecto
-
-- Agregar una nueva gama:
-  - Crear nueva clave en `CATALOG`.
-  - Registrar etiqueta en `BRANCH_LABELS`.
-  - Ajustar menu de `prompt_branch()` si quieres exponerla por numero.
-- Agregar nueva categoria:
-  - Incluir clave en `BUILD_PRIORITY`.
-  - Agregar etiqueta en `COMPONENT_LABELS`.
-  - Definir sus opciones dentro de cada gama en `CATALOG`.
-- Cambiar el orden de armado:
-  - Editar `BUILD_PRIORITY` sin modificar `build_pc()`.
 
 ## Conclusion personal
 
